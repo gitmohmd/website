@@ -1,0 +1,49 @@
+
+header {
+  width: auto;
+  height: 137px;
+  background-color: #1560BD;
+}
+
+
+.tow h2 {
+
+   text-align: center;
+   color: #1560BD;
+   font-style: oblique;
+   margin-top: 10px;
+   /*font-size: 70%;*/
+
+}
+
+
+header .deux {
+   width: 400px;
+   height: 137px;
+   /*background-color: #669999;*/
+   display: inline-block;
+   float: right;
+
+}
+
+header .tow {
+  width: 400px;
+  height: 137px;
+  background-color: #669999;
+  display: inline-block;
+}
+
+
+aside {
+  display: inline-block;
+  width: auto;
+  height: 137px;
+}
+
+
+sectoin {
+  float: right;
+  width: 500px;
+  height: 137px;
+  display: inline-block;
+}

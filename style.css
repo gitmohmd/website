@@ -1,0 +1,84 @@
+header {
+  width: auto;
+  height: 200px;
+  background-color: LightSeaGreen;
+  /*padding-top: 30px;*/
+}
+
+
+.green {
+  width: 600px;;
+  height: 122px;
+  float: right;
+
+}
+
+header img {
+  float: left;
+  width: 220px;
+  height: 230px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.green img {
+  width: 140px;
+  height: 140px;
+}
+
+.green p {
+
+  display: inline-block;
+  width: auto;
+  height: 20px;
+  margin-left: 90px;
+  margin-top: 140px;
+
+}
+
+header h2 {
+  text-align: center;
+  color: 	Crimson;
+  /*margin-bottom: 19px;*/
+}
+
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&  body   &&&&&&&&&&&&&&&&&&&&&&&&*/
+
+ /*############################## ASIDE #########################*/
+
+aside {
+  width:  200px;
+  height: 700px;
+  background-color: Gainsboro;
+  display: inline-block;
+  /*margin-bottom: : 50px;*/
+}
+
+aside img {
+  width: 120px;
+  height: 90px;
+}
+aside h3 {
+  text-align: left;
+  color: #CD5B45;
+}
+
+aside p {
+font-size: 90%;
+color: #58427C;
+}
+
+/*############################## SECTION #########################*/
+
+section {
+  display: inline-block;
+  background-color: #B9F2FF;
+  width: 1074.9px;;
+  height: 700px;
+  float: right;
+}
+section div img {
+  width: 1060px;
+  height: 700px;
+
+}
