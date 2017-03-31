@@ -1,84 +1,108 @@
+/*######################## header #####################*/
 header {
   width: auto;
   height: 200px;
   background-color: LightSeaGreen;
-  /*padding-top: 30px;*/
+
 }
 
 
-.green {
+header nav  {
   width: 600px;;
   height: 122px;
   float: right;
 
 }
 
-header img {
-  float: left;
-  width: 220px;
-  height: 230px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+header nav img {
 
-.green img {
-  width: 140px;
-  height: 140px;
-}
-
-.green p {
-
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 0px 3px 3px;
   display: inline-block;
-  width: auto;
-  height: 20px;
-  margin-left: 90px;
-  margin-top: 140px;
+}
+
+ul :hover {
+  background-color: skyblue;
+}
+
+header nav ul {
+  position: absolute;
+  display: inline-block;
 
 }
 
-header h2 {
+header nav li {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+header h1 {
   text-align: center;
-  background-color: LightSeaGreen;;
-  /*margin-bottom: 19px;*/
+  background-color: Lightgreen;
+  color: blue;
 }
 
 
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&  body   &&&&&&&&&&&&&&&&&&&&&&&&*/
 
- /*############################## ASIDE #########################*/
+ /*############################## container #########################*/
+.container {
+   position: relative;
+}
 
-aside {
+ /*################################ aside ##########################*/
+.container aside {
   width:  200px;
   height: 700px;
   background-color: Gainsboro;
   display: inline-block;
-  /*margin-bottom: : 50px;*/
+
 }
 
-aside img {
+ .container aside img {
   width: 120px;
   height: 90px;
 }
-aside h3 {
+
+.container aside h2 {
   text-align: left;
   color: #CD5B45;
 }
 
-aside p {
+.container aside p {
 font-size: 90%;
 color: #58427C;
 }
 
-/*############################## SECTION #########################*/
+/*############################## aside #########################*/
 
-section {
+
+/*################################## section ########################*/
+.container section {
+
+
   display: inline-block;
   background-color: #B9F2FF;
   width: 1074.9px;;
   height: 700px;
-  float: right;
+   position: absolute;
 }
-section div img {
-  width: 1060px;
-  height: 700px;
 
+
+
+.container  section img {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+
+.container section ul {
+  display: inline-block;
+  position:relative;
+}
+
+.container section li {
+  /*margin-top: 10px;*/
 }
