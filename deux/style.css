@@ -1,4 +1,10 @@
+html , body , header footer {
+  margin: 0px;
+  height: 0px;
+}
 
+
+/*######################## header ####################*/
 header {
   width: auto;
   height: 137px;
@@ -26,6 +32,7 @@ header .deux {
 
 }
 
+
 header .tow {
   width: 400px;
   height: 137px;
@@ -34,16 +41,45 @@ header .tow {
 }
 
 
+header nav img {
+  float: right;
+  width: 300px;
+  height: 137px;
+}
+/*################################ aside ~##############################*/
+
 aside {
   display: inline-block;
   width: auto;
-  height: 137px;
+  height: 737px;
 }
 
-
-sectoin {
+/*########################### section ############################*/
+section {
   float: right;
   width: 500px;
-  height: 137px;
+  height: 737px;
   display: inline-block;
 }
+
+section img {
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+/*############################## footer #############################*/
+
+
+
+footer{
+  width: auto;
+  height: 100px;
+  background-color: #B9F2FF;
+}
+
+footer li {
+  display: inline-block;
+  width: auto;
+  height: 30px;
+  margin-left: 50px;
