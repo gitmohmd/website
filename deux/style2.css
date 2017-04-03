@@ -1,0 +1,85 @@
+html , body , header footer {
+  margin: 0px;
+  height: 0px;
+}
+
+
+/*######################## header ####################*/
+header {
+  width: auto;
+  height: 137px;
+  background-color: #1560BD;
+}
+
+
+.tow h2 {
+
+   text-align: center;
+   color: #1560BD;
+   font-style: oblique;
+   margin-top: 10px;
+   /*font-size: 70%;*/
+
+}
+
+
+header .deux {
+   width: 400px;
+   height: 137px;
+   /*background-color: #669999;*/
+   display: inline-block;
+   float: right;
+
+}
+
+
+header .tow {
+  width: 400px;
+  height: 137px;
+  background-color: #669999;
+  display: inline-block;
+}
+
+
+header nav img {
+  float: right;
+  width: 300px;
+  height: 137px;
+}
+/*################################ aside ~##############################*/
+
+aside {
+  display: inline-block;
+  width: auto;
+  height: 737px;
+}
+
+/*########################### section ############################*/
+section {
+  float: right;
+  width: 500px;
+  height: 737px;
+  display: inline-block;
+}
+
+section img {
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+/*############################## footer #############################*/
+
+
+
+footer{
+  width: auto;
+  height: 100px;
+  background-color: #B9F2FF;
+}
+
+footer li {
+  display: inline-block;
+  width: auto;
+  height: 30px;
+  margin-left: 50px;
