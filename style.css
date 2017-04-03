@@ -112,16 +112,32 @@ color: #58427C;
 
 
 
-.container .top ul{
-  width: 300px;
-  height: 300px;
+.container section . ul{
+  width: 200px;
+  height: 200px;
   display: inline-block;
 }
 
 
-.container  .top li {
+.container section  li {
   display: inline-block;
-  margin-left: px;
+  margin-right: 100px;
+
 }
 
-/*################################### section ###################*/
+/*################################### footer ###################*/
+
+
+footer{
+  width: auto;
+  height: 100px;
+  background-color: #B9F2FF;
+}
+
+footer li {
+  display: inline-block;
+  width: auto;
+  height: 30px;
+  margin-left: 50px;
+
+}
